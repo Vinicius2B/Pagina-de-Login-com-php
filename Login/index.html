@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Página de Login</title>
+</head>
+<body>
+    <section class="principal">
+        <div class="area-login">
+            <h1 class="titulo">
+                Login
+            </h1>
+
+            <form method="post" action="./php/cadastro.php">
+                <input type="text" name="txt_username" placeholder="Username" autofocus>
+                <input type="text" name="txt_email" placeholder="Email">
+                <input type="password" name="txt_senha" placeholder="Password">
+                <button class="login" type="submit" >Login</button>
+            </form>
+
+            <div class="senha1">
+                <p><a class="pass-link" href="#" class="senha">Forgot your password?</a></p>
+                <p class="create-cont">Not have an account yet? <a class="cont-link" ahref="#">Create an accont</a></p>
+            </div>
+            
+        </div>
+    </section>
+</body>
+
+</html>
